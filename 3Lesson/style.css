@@ -1,0 +1,45 @@
+html. body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 50%;
+    margin: 20px 30px 20px 30px;
+
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid rgba(242, 245, 245, 0.938);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border-radius: 10px;
+}
+
+tr {
+    background-color: rgb(220, 226, 220);
+
+}
+
+th {
+    background-color: rgb(5, 237, 191);
+}
+
+
+
+td:hover {
+    cursor: pointer;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e4e4f2;
+    color: #000;
+}
+
+tbody td:hover,
+tfoot td:hover {
+    background-color: #afa2fc;
+}
